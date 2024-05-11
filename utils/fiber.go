@@ -1,8 +1,8 @@
 package utils
 
 import (
+	"go-hexagonal-example/configs"
 	"log"
-	"sample/configs"
 	"strings"
 
 	"github.com/gofiber/fiber/v2"

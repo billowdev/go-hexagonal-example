@@ -2,9 +2,9 @@ package db
 
 import (
 	"fmt"
+	"go-hexagonal-example/configs"
+	"go-hexagonal-example/models"
 	"log"
-	"sample/configs"
-	"sample/models"
 
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
@@ -21,7 +21,7 @@ func NewDatabase() (*gorm.DB, error) {
 		panic("failed to connect database")
 	}
 	log.Println("connect the db...")
-	
+
 	// err = db.AutoMigrate(&models.TodoModel{})
 	// if err != nil {
 	// 	panic("failed to auto migrate")

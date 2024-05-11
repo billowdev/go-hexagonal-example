@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
+	"go-hexagonal-example/core"
+	"go-hexagonal-example/db"
+	"go-hexagonal-example/utils"
 	"log"
-	"sample/core"
-	"sample/db"
-	"sample/utils"
 )
 
 func main() {

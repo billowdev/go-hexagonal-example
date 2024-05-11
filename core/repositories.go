@@ -1,8 +1,8 @@
 package core
 
 import (
-	"sample/filters"
-	"sample/models"
+	"go-hexagonal-example/filters"
+	"go-hexagonal-example/models"
 
 	"github.com/billowdev/pagi"
 	"gorm.io/gorm"

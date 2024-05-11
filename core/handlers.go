@@ -1,8 +1,8 @@
 package core
 
 import (
-	"sample/filters"
-	"sample/utils"
+	"go-hexagonal-example/filters"
+	"go-hexagonal-example/utils"
 
 	"github.com/billowdev/pagi"
 	"github.com/gofiber/fiber/v2"
