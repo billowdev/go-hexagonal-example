@@ -1,6 +1,6 @@
 package filters
 
-import "github.com/billowdev/pagi"
+import "github.com/rapidstellar/pagi"
 
 type FTodo struct {
 	Title  string `json:"title"`

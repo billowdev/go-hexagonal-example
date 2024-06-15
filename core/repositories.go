@@ -4,7 +4,7 @@ import (
 	"go-hexagonal-example/filters"
 	"go-hexagonal-example/models"
 
-	"github.com/billowdev/pagi"
+	"github.com/rapidstellar/pagi"
 	"gorm.io/gorm"
 )
 

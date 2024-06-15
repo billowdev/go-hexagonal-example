@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/billowdev/pagi"
+	"github.com/rapidstellar/pagi"
 	"github.com/gofiber/fiber/v2"
 )
 
@@ -43,7 +43,7 @@ func InitPagination[FilterType interface{}](c *fiber.Ctx) pagi.PagingParams[Filt
 	order := c.Query("order")
 	page := c.Query("page")
 	limit := c.Query("limit")
-	return pagi.InitPagingParams[FilterType](host, sort, order, page, limit, defaultSort)
+	return pagi.NewPaginationParams[FilterType](host, sort, order, page, limit, defaultSort)
 }
 
 func GetPaginationInfo[T interface{}](payload pagi.PagingInfo[T]) PaginationResponse {

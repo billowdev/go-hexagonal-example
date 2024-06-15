@@ -4,7 +4,7 @@ import (
 	"go-hexagonal-example/filters"
 	"go-hexagonal-example/utils"
 
-	"github.com/billowdev/pagi"
+	"github.com/rapidstellar/pagi"
 	"github.com/gofiber/fiber/v2"
 )
 

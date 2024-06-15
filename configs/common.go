@@ -1,6 +1,6 @@
 package configs
 
-import "github.com/billowdev/pagi"
+import "github.com/rapidstellar/pagi"
 
 type PagingResponse[T interface{}] struct {
 	Code          int                `json:"code"`

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"go-hexagonal-example/filters"
 
-	"github.com/billowdev/pagi"
+	"github.com/rapidstellar/pagi"
 )
 
 type (
